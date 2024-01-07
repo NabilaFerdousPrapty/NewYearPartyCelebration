@@ -242,10 +242,31 @@ midnight party starts here   */
   line-height: 28px;
 }
 /* awesome-portfolio section starts here */
-.awesome-portfolio {
-  text-align: center;
+.awesome-portfolio{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
-
+.portfolio{
+    color: #F00;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+}
+.awesome-portfolio-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 36px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.awesome-portfolio-text{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 16px;
+line-height: 27px;
+}
 .image-flexbox {
   display: flex;
   justify-content: center;
@@ -258,7 +279,7 @@ midnight party starts here   */
   margin: 10px 10px;
 }
 .awesome-portfolio-images {
-  max-width: 80%;
+  max-width: 87%;
   margin: 0 auto;
 }
 /* 
@@ -318,6 +339,7 @@ line-height: 27px;
 /* 
 footer section starts here */ 
 footer{
+    margin-top: 100px;
     background: #070211;
     color: #FFF;
 font-family: Inter;
@@ -340,14 +362,19 @@ line-height: 28px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-bottom: 50px;
+    border-top:1px solid rgba(255, 255, 255, 0.15);
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);
+    margin: 0 120px;
+    padding: 30px 0px;
 
 }
+
 .unsubscribe{
     max-width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 40px;
     padding-bottom: 80px;
 }
