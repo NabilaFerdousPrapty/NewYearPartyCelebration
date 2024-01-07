@@ -243,10 +243,24 @@ midnight party starts here   */
   font-size: 15px;
   line-height: 28px;
 }
-
-.off-50{
+.holiday-sale-image{
+    margin-top: 30px;
+    background-image: url("../image/Rectangle\ 2.png");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    border-radius: 10px;
     position: relative;
 }
+.girl-image{
+    position: relative;
+    top: -221px;
+    left: 68px;
+    z-index: 1;
+}
+
+
+
 
 /* awesome-portfolio section starts here */
 .awesome-portfolio{
