@@ -164,6 +164,7 @@ midnight party starts here   */
   justify-content: space-evenly;
   align-items: center;
   font-family: Inter;
+  padding: 30px 00px;
 }
 .new-offer > img {
   max-width: 20%;
@@ -196,6 +197,7 @@ midnight party starts here   */
   line-height: 25px; /* 160% */
 }
 .new-year-title {
+    padding-top: 100px;
   color: #f00;
   font-family: Inter;
   font-size: 35px;
@@ -241,6 +243,11 @@ midnight party starts here   */
   font-size: 15px;
   line-height: 28px;
 }
+
+.off-50{
+    position: relative;
+}
+
 /* awesome-portfolio section starts here */
 .awesome-portfolio{
     max-width: 90%;
@@ -282,6 +289,12 @@ line-height: 27px;
   max-width: 87%;
   margin: 0 auto;
 }
+.awesome-portfolio-images img:hover {
+    transform: scale(1.7);
+    transition: 1.9s;
+    border: 10px solid #f00;
+    
+}
 /* 
 subscribe section starts here */
 .subscribe {
@@ -305,8 +318,11 @@ color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 16px;
 line-height: 27px; 
+width: 60%;
+margin: 0 auto;
 }
 .subscribe-input input {
+    margin-top: 30px;
   border-radius: 50px 0px 0px 50px;
   border: none;
   padding: 17px 32px;
