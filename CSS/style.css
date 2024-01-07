@@ -12,7 +12,7 @@
 }
 
 .section {
-  margin: 60px 10px;
+  margin: 70px 10px;
 }
 
 /* ............................
@@ -175,42 +175,179 @@ midnight party starts here   */
 .new-year {
   max-width: 380px;
   text-align: justify;
-
 }
-.offer-title{
-    color: #F00;
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-
+.offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
 }
-.comming-offer{
-    color: #070211;
-font-family: Merriweather;
-font-size: 35px;
-font-weight: 900;
-text-transform: capitalize;
+.comming-offer {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: capitalize;
 }
-.offer-para{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 15px;
-line-height: 25px; /* 160% */
+.offer-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 25px; /* 160% */
 }
-.new-year-title{
-    color: #F00;
-font-family: Inter;
-font-size: 35px;
-font-weight: 700;
+.new-year-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 700;
 }
-.new-year-para{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 15px;
-line-height: 28px;
-margin-bottom: 30px;
+.new-year-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 30px;
 }
 .new-year-img {
-    width: 120px;
-height: 120px;
+  width: 120px;
+  height: 120px;
+}
+/* holiday sale section starts here  */
+.holiday-sale-content {
+  text-align: center;
+  color: #070211;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.holiday-sale-function {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 16px 0px;
+}
+.holiday-sale-title {
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.holiday-sale-title span {
+  color: #f00;
+  font-family: Merriweather;
+}
+.holiday-sale-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  line-height: 28px;
+}
+/* awesome-portfolio section starts here */
+.awesome-portfolio {
+  text-align: center;
+}
+
+.image-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-flexbox img {
+  display: inline-block;
+  max-width: 37%;
+  border-radius: 16px;
+  margin: 10px 10px;
+}
+.awesome-portfolio-images {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* 
+subscribe section starts here */
+.subscribe {
+  padding: 65px 0px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 36px 0px 18px 0px;
+}
+.subscribe-para{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 16px;
+line-height: 27px; 
+}
+.subscribe-input input {
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  padding: 17px 32px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #f00;
+  outline: none;
+  width: 40%;
+  margin-left: 0px;
+}
+.subscribe-btn {
+  border-radius: 0px 50px 50px 0px;
+  margin-right: 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 17px 32px;
+  border: none;
+}
+/* 
+footer section starts here */ 
+footer{
+    background: #070211;
+    color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+
+}
+.footer-content{
+    padding: 100px 20px 50px 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+.unsubscribe{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
 }
