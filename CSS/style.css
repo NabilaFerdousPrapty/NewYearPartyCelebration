@@ -258,8 +258,12 @@ midnight party starts here   */
     left: 68px;
     z-index: 1;
 }
-
-
+.top-image{
+    position: absolute;
+    top: 62px;
+    left: 700px;
+    z-index: 2;
+}
 
 
 /* awesome-portfolio section starts here */
