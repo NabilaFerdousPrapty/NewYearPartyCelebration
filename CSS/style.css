@@ -4,11 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 /* container size for all pages */
 .container {
   max-width: 1320px;
   margin: 0px auto;
+
 }
 
 .section {
@@ -83,8 +85,14 @@ header style ends here
 .money-off-content img {
   max-width: 80%;
 }
+ /* .....................
+moneyoff section style ends here 
+.......................*/
+
+
 /* 
-midnight party starts here   */
+midnight party starts here 
+  */
 .midnight-party {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.3) 100%),
     url("../image/Vectorrr.png");
@@ -127,7 +135,14 @@ midnight party starts here   */
   border: none;
   cursor: pointer;
 }
-/* party location section starts here */
+
+/* 
+midnight party ends here 
+  */
+
+/* 
+party location section starts here
+ */
 .party-location {
   text-align: center;
   background: linear-gradient(
@@ -156,7 +171,12 @@ midnight party starts here   */
   color: #fff;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
+
+/* 
+party location section ends here
+ */
 
 /* new-offer section starts below  */
 .new-offer {
@@ -214,7 +234,13 @@ midnight party starts here   */
   width: 120px;
   height: 120px;
 }
-/* holiday sale section starts here  */
+/* 
+new offer section ends here
+ */
+
+/* 
+holiday sale section starts here
+  */
 .holiday-sale-content {
   text-align: center;
   color: #070211;
@@ -244,7 +270,7 @@ midnight party starts here   */
   line-height: 28px;
 }
 .holiday-sale-image{
-    margin-top: 50px;
+    margin-top: 170px;
     background-image: url("../image/Rectangle\ 2.png");
     background-size: 100%;
     background-position: bottom;
@@ -254,22 +280,31 @@ midnight party starts here   */
     position: relative;
     left: 45px;
 }
+.box{
+  display: inline-block;
+  width: 50%;
+  
+}
 
 .girl-image{
     position: relative;
     top: -210px;
-    left: 2px;
+    left: 180px;
     z-index: 1;
 }
 .top-image{
     position: absolute;
-    top: 62px;
+    top: -75px;
     left: 640px;
     z-index: 2;
 }
+/* 
+holiday sale section ends here
+  */
 
-
-/* awesome-portfolio section starts here */
+/* 
+awesome-portfolio section starts here 
+*/
 .awesome-portfolio{
     max-width: 90%;
     margin: 0 auto;
@@ -317,7 +352,12 @@ line-height: 27px;
     
 }
 /* 
-subscribe section starts here */
+awesome-portfolio section ends here 
+*/
+
+/* 
+subscribe section starts here 
+*/
 .subscribe {
   padding: 65px 0px;
   max-width: 90%;
@@ -325,6 +365,7 @@ subscribe section starts here */
   text-align: center;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
+  
 }
 .subscribe-title {
   color: #070211;
@@ -372,9 +413,15 @@ margin: 0 auto;
   text-transform: capitalize;
   padding: 17px 32px;
   border: none;
+  cursor: pointer;
 }
 /* 
-footer section starts here */ 
+subscribe section ends here 
+*/
+
+/* 
+footer section starts here
+ */ 
 footer{
     margin-top: 100px;
     background: #070211;
@@ -405,7 +452,6 @@ line-height: 28px;
     padding: 30px 0px;
 
 }
-
 .unsubscribe{
     max-width: 80%;
     margin: 0 auto;
@@ -415,3 +461,7 @@ line-height: 28px;
     padding-top: 40px;
     padding-bottom: 80px;
 }
+
+/* 
+footer section ends here
+ */ 
