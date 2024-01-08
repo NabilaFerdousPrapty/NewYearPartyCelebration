@@ -28,11 +28,9 @@ header {
     ),
     url("../image/Banner\ Image.png"); /* Background image */
   text-align: center;
-  text-align: center;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100vh;
   border-radius: 16px;
   background-size: 90% 90%;
 }
@@ -43,14 +41,17 @@ header {
   max-width: 650px;
   margin: 0 auto;
 }
+.banner{
+  padding: 100px 0px 140px 0px;
+}
 .banner-title {
-  padding: 220px 0px 16px 0px;
-  font-size: 32px;
+  padding: 20px 0px 20px 0px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
 }
 .banner-content {
-  font-size: 72px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 900;
 }
