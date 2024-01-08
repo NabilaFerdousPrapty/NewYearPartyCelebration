@@ -79,7 +79,7 @@ header style ends here
 }
 .category-sale {
   color: #070211;
-  font-size: 35px;
+  font-size: 39px;
   font-weight: 700;
   padding-bottom: 30px;
 }
@@ -87,7 +87,7 @@ header style ends here
   max-width: 80%;
 }
  /* .....................
-moneyoff section style ends here 
+money off section style ends here 
 .......................*/
 
 
@@ -136,7 +136,6 @@ midnight party starts here
   border: none;
   cursor: pointer;
 }
-
 /* 
 midnight party ends here 
   */
@@ -385,12 +384,12 @@ width: 60%;
 margin: 0 auto;
 }
 .subscribe-input input {
-    margin-top: 30px;
+  margin-top: 30px;
   border-radius: 50px 0px 0px 50px;
   border: none;
   padding: 17px 32px;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -407,7 +406,7 @@ margin: 0 auto;
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
